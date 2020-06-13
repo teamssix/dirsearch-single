@@ -9,9 +9,19 @@ pip3 install requests
 # 使用
 1、在`url.txt`文件中，加上自己想要检测的url
 2、使用`python3`运行以下命令，最后的`dir_path`改成你想检测的目录
+
 ```
 python3 disearch_single.py dir_path
 ```
+# 示例
+```
+> python3 dirsearch-single.py /robots.txt
+[-] 404 9339 https://www.teamssix.com/robots.txt
+[+] 200 2814 https://www.baidu.com/robots.txt
+[+] 200 4330 https://www.alibaba.com/robots.txt
+[+] 200 0 https://www.163.com/robots.txt
+```
+
 # 注意事项
 * `url.txt`中的格式为`https://www.teamssix.com`或`http://www.teamssix.com`
 * 此程序使用`Python3`开发
