@@ -8,6 +8,7 @@ pip3 install requests
 ```
 # 使用
 1、在`url.txt`文件中，加上自己想要检测的url
+
 2、使用`python3`运行以下命令，最后的`dir_path`改成你想检测的目录
 
 ```
